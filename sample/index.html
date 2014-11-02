@@ -1,0 +1,31 @@
+<html class="no-js" ng-app="app">
+
+<head>
+  <base href="/sample/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Angular-Spinner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="./css.css" />
+</head>
+
+<body ng-controller="AppCtrl">
+
+  <div class="app">
+    <div class="spinner">
+      <div spinner="">
+        <img src="./images/wait_icon.gif" />
+      </div>
+    </div>
+    <h2>Number of pending requests</h2>
+    <h2 ng-bind="SpinnerConfig.pendingRequests">0</h2>
+    <button ng-click="sendRequest()">Send request</button>
+  </div>
+
+  <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="../src/spinner.js"></script>
+  <script type="text/javascript" src="./js.js"></script>
+
+</body>
+
+</html>
