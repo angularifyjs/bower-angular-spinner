@@ -1,5 +1,5 @@
 /**
- * angular-spinner v1.0.0 - 2014-11-02
+ * angular-spinner v1.2.26 - 2014-11-02
  * @link https://github.com/angularifyjs/angular-spinner
  * @license MIT - Copyright (c) 2014 Angularfiy.org & HenryTao.
  */
