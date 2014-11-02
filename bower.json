@@ -1,0 +1,23 @@
+{
+  "name": "angular-spinner",
+  "version": "1.2.23",
+  "homepage": "https://github.com/angularifyjs/bower-angular-spinner",
+  "authors": [
+    "Henry Tao <hi@henrytao.me>"
+  ],
+  "description": "Spinner directive based on $http interceptor",
+  "main": "spinner.js",
+  "keywords": [
+    "angular",
+    "spinner",
+    "http"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
